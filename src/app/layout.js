@@ -1,3 +1,5 @@
+import GTMProvider from "@/components/gtmprovider";
+
 /* eslint-disable @next/next/next-script-for-ga */
 export default function RootLayout({ children }) {
 	return (
@@ -15,6 +17,7 @@ export default function RootLayout({ children }) {
 			</head>
 			<body>
 				{children}
+				<GTMProvider />
 				<noscript
 					dangerouslySetInnerHTML={{
 						__html: `<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WDH54DJD" height="0" width="0" style="display:none;visibility:hidden"></iframe>`
