@@ -7,12 +7,12 @@ export const generateMetadata = async () => {
 export default function Home() {
 	return (
 		<>
-			<Link href="/de/asdf">Test</Link>
-			<Link href="/de/asdf1">Test1</Link>
-			<Link href="/de/asdf2">Test2</Link>
-			<Link href="/de/asdf3">Test3</Link>
-			<Link href="/de/asdf4">Test4</Link>
-			<Link href="/de/asdf5">Test5</Link>
+			<Link href="/de/demo">Demo</Link>
+			<Link href="/de/demo1">Demo1</Link>
+			<Link href="/de/demo2">Demo2</Link>
+			<Link href="/de/demo3">Demo3</Link>
+			<Link href="/de/demo4">Demo4</Link>
+			<Link href="/de/demo5">Demo5</Link>
 		</>
 	);
 }
